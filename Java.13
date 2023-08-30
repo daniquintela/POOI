@@ -1,0 +1,26 @@
+import java.util.*;
+
+public class BarataProject {
+    
+    public static void main(String[] args){
+        System.out.println("xxxxxxxxxxxxxxxxxxxxx");
+        
+        Cozinha c = new Cozinha();
+        c.baratas = 4;
+        System.out.println("Quantidade: "+c.pop.baratas);
+        c.pop.aumentaBaratas();
+        
+        PopulacaoBaratas pop = new PopulacaoBaratas();
+        System.out.println("Quantidade: "+c.pop.baratas);
+        c.pop.PopulacaoBaratas();
+        
+        
+        pop.aumentaBaratas();
+        System.out.println("Quantidade: "+c.pop.baratas);
+        c.pop.aumentaBaratas();
+        
+        pop.spray();
+        System.out.println("Quantidade: "+c.pop.baratas);
+        c.pop.spray();
+    }
+}
